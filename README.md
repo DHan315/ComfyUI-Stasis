@@ -1,12 +1,13 @@
 # Stasis for ComfyUI
 
-Stasis is a lightweight flow-control node that keeps an upstream branch dormant
-during a normal queue and wakes it only for partial execution from a downstream
-output. Its inputs are lazy, so a blocked branch is not evaluated merely because
-it exists in the workflow.
+Stasis prevents unused ComfyUI workflow branches from running until you
+explicitly need them. It keeps alternate models, reference pipelines, and other
+expensive branches dormant, reducing unnecessary loading and processing.
 
-Stasis was created for workflows that contain optional, expensive branches such
-as model loaders, reference processing, or alternate generation paths.
+During a normal Queue Prompt, Stasis blocks its upstream branch. When you use
+**Execute Selected Output Nodes** on a downstream output, Stasis wakes that
+branch for the selected execution. Its inputs are lazy, so a dormant branch is
+not evaluated merely because it exists in the workflow.
 
 ## Behavior
 

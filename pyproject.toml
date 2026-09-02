@@ -1,6 +1,6 @@
 [project]
 name = "stasis"
-description = "Lazy wildcard branch control for ComfyUI workflows."
+description = "Keep unused ComfyUI workflow branches dormant until they are needed."
 version = "0.6.0"
 license = { file = "LICENSE" }
 authors = [{ name = "DHan315" }]
