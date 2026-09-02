@@ -18,5 +18,5 @@ Documentation = "https://github.com/DHan315/ComfyUI-Stasis#readme"
 "Bug Tracker" = "https://github.com/DHan315/ComfyUI-Stasis/issues"
 
 [tool.comfy]
-PublisherId = "DHan315"
+PublisherId = "dhan315"
 DisplayName = "Stasis"
