@@ -1,0 +1,22 @@
+[project]
+name = "stasis"
+description = "Lazy wildcard branch control for ComfyUI workflows."
+version = "0.6.0"
+license = { file = "LICENSE" }
+authors = [{ name = "DHan315" }]
+requires-python = ">=3.9"
+dependencies = []
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Repository = "https://github.com/DHan315/ComfyUI-Stasis"
+Documentation = "https://github.com/DHan315/ComfyUI-Stasis#readme"
+"Bug Tracker" = "https://github.com/DHan315/ComfyUI-Stasis/issues"
+
+[tool.comfy]
+PublisherId = "DHan315"
+DisplayName = "Stasis"
