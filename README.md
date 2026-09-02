@@ -34,7 +34,11 @@ regular pass-through node. The setting is saved with the workflow.
 
 ### ComfyUI Manager / Registry
 
-Registry installation will be available after the first public Registry release.
+Install **Stasis** through ComfyUI Manager, or with the Comfy CLI:
+
+```bash
+comfy node install stasis
+```
 
 ### Git
 
