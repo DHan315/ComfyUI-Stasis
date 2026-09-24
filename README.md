@@ -1,4 +1,4 @@
-# Stasis for ComfyUI
+# Comfyui-DHan-Stasis
 
 Stasis prevents unused ComfyUI workflow branches from running until you
 explicitly need them. It keeps alternate models, reference pipelines, and other
@@ -44,7 +44,7 @@ comfy node install stasis
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/DHan315/ComfyUI-Stasis.git
+git clone https://github.com/DHan315/Comfyui-DHan-Stasis.git
 ```
 
 Restart ComfyUI and refresh the browser after installation.
@@ -52,7 +52,7 @@ Restart ComfyUI and refresh the browser after installation.
 ### ZIP
 
 Download the repository ZIP, extract it, and place the resulting
-`ComfyUI-Stasis` folder in `ComfyUI/custom_nodes/`. Restart ComfyUI afterward.
+`Comfyui-DHan-Stasis` folder in `ComfyUI/custom_nodes/`. Restart ComfyUI afterward.
 
 ## Use
 

@@ -69,7 +69,7 @@ class Stasis:
     RETURN_TYPES = (ANY, ANY, ANY, ANY, ANY, ANY, ANY, ANY, ANY, ANY, ANY, ANY, ANY, ANY, ANY, ANY,)
     RETURN_NAMES = ("lane_1", "lane_2", "lane_3", "lane_4", "lane_5", "lane_6", "lane_7", "lane_8", "lane_9", "lane_10", "lane_11", "lane_12", "lane_13", "lane_14", "lane_15", "lane_16",)
     FUNCTION = "stasis"
-    CATEGORY = "flow control"
+    CATEGORY = "Comfyui-DHan/Flow Control"
     DESCRIPTION = (
         "Keeps a branch dormant during normal Queue Prompt. "
         "Execute Selected wakes it for that prompt. Click Disabled to turn "
@@ -99,7 +99,7 @@ class Stasis:
 
 
 NODE_CLASS_MAPPINGS = {"Stasis": Stasis}
-NODE_DISPLAY_NAME_MAPPINGS = {"Stasis": "Stasis"}
+NODE_DISPLAY_NAME_MAPPINGS = {"Stasis": "Comfyui-DHan-Stasis"}
 WEB_DIRECTORY = "./js"
 
 __all__ = [
