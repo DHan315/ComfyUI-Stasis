@@ -1,5 +1,5 @@
 [project]
-name = "stasis"
+name = "comfyui-dhan-stasis"
 description = "Keep unused ComfyUI workflow branches dormant until they are needed."
 version = "0.6.0"
 license = { file = "LICENSE" }
@@ -13,10 +13,10 @@ classifiers = [
 ]
 
 [project.urls]
-Repository = "https://github.com/DHan315/ComfyUI-Stasis"
-Documentation = "https://github.com/DHan315/ComfyUI-Stasis#readme"
-"Bug Tracker" = "https://github.com/DHan315/ComfyUI-Stasis/issues"
+Repository = "https://github.com/DHan315/Comfyui-DHan-Stasis"
+Documentation = "https://github.com/DHan315/Comfyui-DHan-Stasis#readme"
+"Bug Tracker" = "https://github.com/DHan315/Comfyui-DHan-Stasis/issues"
 
 [tool.comfy]
 PublisherId = "dhan315"
-DisplayName = "Stasis"
+DisplayName = "Comfyui-DHan-Stasis"
