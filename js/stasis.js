@@ -195,7 +195,7 @@ function hideWidget(widget) {
 
 function refreshTitle(node) {
     const disabled = Boolean(findWidget(node, DISABLED_WIDGET)?.value);
-    node.title = disabled ? "Stasis (Disabled)" : "❄ Stasis";
+    node.title = disabled ? "DHan-Stasis (Disabled)" : "❄ DHan-Stasis";
     node.properties ??= {};
     node.properties.stasis_disabled = disabled;
     app.canvas?.setDirty?.(true, false);

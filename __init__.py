@@ -99,7 +99,7 @@ class Stasis:
 
 
 NODE_CLASS_MAPPINGS = {"Stasis": Stasis}
-NODE_DISPLAY_NAME_MAPPINGS = {"Stasis": "Comfyui-DHan-Stasis"}
+NODE_DISPLAY_NAME_MAPPINGS = {"Stasis": "DHan-Stasis"}
 WEB_DIRECTORY = "./js"
 
 __all__ = [

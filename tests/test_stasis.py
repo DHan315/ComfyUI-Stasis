@@ -78,7 +78,7 @@ class StasisTests(unittest.TestCase):
 
     def test_public_comfyui_contract(self):
         self.assertIs(stasis_node.NODE_CLASS_MAPPINGS["Stasis"], stasis_node.Stasis)
-        self.assertEqual(stasis_node.NODE_DISPLAY_NAME_MAPPINGS["Stasis"], "Comfyui-DHan-Stasis")
+        self.assertEqual(stasis_node.NODE_DISPLAY_NAME_MAPPINGS["Stasis"], "DHan-Stasis")
         self.assertEqual(stasis_node.WEB_DIRECTORY, "./js")
 
 
